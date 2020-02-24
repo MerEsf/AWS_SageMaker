@@ -35,7 +35,7 @@ Start Time From: ['datetime']
 Target Feature: ['count','registered','casual']
 Frequency: 'Hourly'
 
-### 3) TensorFlow and Apache MxNet Neural Network (NN):
+### 3) Multi-layer Perceptron regressor; Neural Network (NN):
 
 Input Features: ['season', 'holiday', 'workingday', 'weather', 'temp', 'atemp', 'humidity', 'windspeed', 'year', 'month', 'day', 'dayofweek','hour']
 Target Feature: [log1p('count')]
